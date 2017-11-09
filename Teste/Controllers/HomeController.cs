@@ -51,7 +51,7 @@ namespace Teste.Controllers
         public ActionResult Teste3()
         {
             ViewBag.Message = "Your contact page.";
-
+            ViewBag.Message = "B2 Inserido uma nova linha aqui.......";
             return View();
         }
 
@@ -69,6 +69,22 @@ namespace Teste.Controllers
             return View();
         }
 
+
+
+
+        public ActionResult B2_Teste1()
+        {
+            ViewBag.Message = "Your contact page.asdasdasda";
+
+            return View();
+        }
+
+        public ActionResult B2_Teste2()
+        {
+            ViewBag.Message = "Your codsadsadaasdsassaddaasddsaasdsdadasdsasadntact page.";
+
+            return View();
+        }
         public ActionResult B1_Teste5()
         {
             ViewBag.Message = "Your contact page.";
