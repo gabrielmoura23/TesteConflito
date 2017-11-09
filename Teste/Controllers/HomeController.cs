@@ -34,6 +34,13 @@ namespace Teste.Controllers
             return View();
         }
 
+        public ActionResult B1_Teste1()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
         public ActionResult Teste2()
         {
             ViewBag.Message = "Your contact page.";
@@ -62,5 +69,11 @@ namespace Teste.Controllers
             return View();
         }
 
+        public ActionResult B1_Teste5()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
